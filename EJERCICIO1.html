@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+    <head>
+        <style>
+            table, tr, td {
+               border: 2px solid black ; 
+               border-collapse: collapse;
+               width:400px ;
+          } 
+          th, td {
+              padding: 15px; ;
+          }          
+  
+          thead  {
+              background-color: red;
+          }
+          tfoot{
+         background-color: black;
+         text-align: center;
+         font-weight:bold ;
+          }
+      </style>
+  </head>
+  <body>
+          <table>
+              <tr>
+                  <td colspan="3">celda</td>
+                  <td colspan="">celda</td>
+                  
+              </tr>
+              <tr>
+                  <td>celda</td>
+                  <td></td>
+                  <td rowspan="3">celda</td>
+              </tr>
+              <tr>
+                 <td>celda</td>
+                 <td rowspan="3">celda</td> 
+                 
+  
+              </tr>
+             
+  
+      
+          </table>
+  </body>
+  </html>
